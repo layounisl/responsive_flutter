@@ -15,21 +15,21 @@ class ScalingQuery {
     this._longDimension = width < height ? height : width;
   }
 
-  double fontSize(size) {
+  double fontSize(double size) {
     var tempLongDimension = (16 / 9) * this._shortDimension;
     return sqrt(pow(tempLongDimension, 2) + pow(_shortDimension, 2)) *
         (size / 100);
   }
 
-  double scale(size) {
+  double scale(double size) {
     return this._shortDimension / this._guidelineBaseWidth * size;
   }
 
-  double verticalScale(size) {
+  double verticalScale(double size) {
     return this._longDimension / this._guidelineBaseHeight * size;
   }
 
-  double moderateScale(size, [factor = 0.5]) {
+  double moderateScale(size, [double factor = 0.5]) {
     return size + (scale(size) - size) * factor;
   }
 }
