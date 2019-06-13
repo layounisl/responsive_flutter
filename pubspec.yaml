@@ -1,8 +1,8 @@
 name: responsive_flutter
-description: A new Flutter package project.
+description: A Flutter package for scaling the size your apps UI and fontSize across different sized devices.
 version: 0.0.1
-author:
-homepage:
+author: Slah Layouni
+homepage: https://github.com/layounisl/responsive-flutter
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
