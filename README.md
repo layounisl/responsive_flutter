@@ -2,7 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-A Flutter package for scaling the size your apps UI and fontSize across different sized devices, insipred from [react-native-size-matters](https://github.com/nirsky/react-native-size-matters) and [react-native-responsive-dimensions](https://github.com/DaniAkash/react-native-responsive-dimensions)
+A Flutter package for scaling the size your apps UI and fontSize across different sized devices, insipired from [react-native-size-matters](https://github.com/nirsky/react-native-size-matters) and [react-native-responsive-dimensions](https://github.com/DaniAkash/react-native-responsive-dimensions)
 
 ## Installation
 
