@@ -32,4 +32,12 @@ class ScalingQuery {
   double moderateScale(size, [double factor = 0.5]) {
     return size + (scale(size) - size) * factor;
   }
+
+  double hp(size) {
+    return (this._longDimension * size) / 100;
+  }
+
+  double wp(size) {
+    return (this._shortDimension * size) / 100;
+  }
 }
