@@ -10,7 +10,7 @@ You just need to add `responsive_flutter` as a [dependency in your pubspec.yaml 
 
 ```yaml
 dependencies:
-  responsive_flutter: ^0.0.1
+  responsive_flutter: ^0.0.2
 ```
 
 ## Usage
@@ -34,6 +34,22 @@ dependencies:
 
 ### Functions
 
+- `wp(double percentage)`  
+  Will return the percentage of the screen's width.
+  
+  ```dart
+  // Example 20% of screen's width
+  ResponsiveFlutter.of(context).wp(20)
+  ```
+  
+- `hp(double percentage)`  
+  Will return the percentage of the screen's height.
+  
+  ```dart
+  // Example 20% of screen's height
+  ResponsiveFlutter.of(context).hp(20)
+  ```
+  
 - `fontSize(double size)`  
   Will return fontSize that occupies exactly size% of the screen size.
 - `scale(double size)`  
