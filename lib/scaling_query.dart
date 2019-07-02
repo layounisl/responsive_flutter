@@ -29,7 +29,7 @@ class ScalingQuery {
     return this._longDimension / this._guidelineBaseHeight * size;
   }
 
-  double moderateScale(size, [double factor = 0.5]) {
+  double moderateScale(double size, [double factor = 0.5]) {
     return size + (scale(size) - size) * factor;
   }
 
