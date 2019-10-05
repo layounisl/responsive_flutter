@@ -1,6 +1,6 @@
 ## [0.0.4] - Oct 2019.
 
-* Fixed issue where width and height equals to O.O on release.
+* Fixed issue where width and height equals to 0.0 on release.
 
 ## [0.0.3] - July 2019.
 
