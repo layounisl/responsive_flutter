@@ -10,7 +10,7 @@ You just need to add `responsive_flutter` as a [dependency in your pubspec.yaml 
 
 ```yaml
 dependencies:
-  responsive_flutter: ^0.0.3
+  responsive_flutter: ^0.0.4
 ```
 
 ## Usage
