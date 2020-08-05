@@ -1,7 +1,6 @@
 # responsive_flutter
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![HitCount](https://hits.dwyl.com/layounisl/responsive_flutter.svg)](https://hits.dwyl.com/layounisl/responsive_flutter)
 
 A Flutter package for scaling the size your apps UI and fontSize across different sized devices, insipired from [react-native-size-matters](https://github.com/nirsky/react-native-size-matters) and [react-native-responsive-dimensions](https://github.com/DaniAkash/react-native-responsive-dimensions)
 
